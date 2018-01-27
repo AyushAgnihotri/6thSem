@@ -1,0 +1,7 @@
+For Question-1 :
+>> g++ IIM2015004_1.cpp
+>> ./a.out -s 0.25 -c 0.8 transactions.txt
+
+For Question-2 :
+>> g++ IIM2015004_1.cpp
+>> ./a.out -s 0.25 -c 0.8 transactions.txt
