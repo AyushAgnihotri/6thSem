@@ -1,0 +1,5 @@
+g++ -O2 -S program.cpp 
+cat program.s
+
+
+objdump -d program.o 
