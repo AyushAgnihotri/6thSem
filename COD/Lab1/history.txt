@@ -1,0 +1,125 @@
+    1  go
+    2  sudo apt-get install g0lang-go
+    3  sudo apt-get install golang-go
+    4  cd Downloads/
+    5  ls
+    6  cd ProxyMan-master/
+    7  sudo bash main.sh
+    8  clear
+    9  sudo apt-get install golang-go
+   10  clear
+   11  ./jdk-8u151-nb-8_2-linux-x64.sh 
+   12  sudo apt-get install golang-go
+   13  clear
+   14  exit
+   15  cd Documents/
+   16  subl apriori.cpp
+   17  subl test.txt
+   18  g++ apriori.cpp < test.txt 
+   19  sudo apt-get install g++
+   20  sudo apt-get update
+   21  sudo apt-get install g++
+   22  g++ apriori.cpp < test.txt 
+   23  cat test.txt 
+   24  g++ apriori.cpp < test.txt 
+   25  ./a.out 
+   26  ./a.out < test.txt 
+   27  ./a.out 
+   28  g++ apriori.cpp < test.txt 
+   29  ./a.out < test.txt 
+   30  g++ apriori.cpp < test.txt 
+   31  ./a.out < test.txt 
+   32  g++ apriori.cpp < test.txt 
+   33  ./a.out < test.txt 
+   34  g++ apriori.cpp < test.txt 
+   35  ./a.out < test.txt 
+   36  g++ apriori.cpp < test.txt 
+   37  ./a.out < test.txt 
+   38  g++ apriori.cpp < test.txt 
+   39  ./a.out < test.txt 
+   40  subl apriori1.cpp
+   41  g++ apriori.cpp 
+   42  `subl test.txt 
+   43  `subl test.txt '
+   44  '
+   45  subl test.txt
+   46  g++ apriori.cpp 
+   47  ./a.out < test.txt 
+   48  ./a.out 
+   49  g++ apriori1.cpp 
+   50  ./a.out 
+   51  cd Documents/
+   52  ls
+   53  mkdir COD
+   54  cd COD
+   55  subl add.c
+   56  subl sub.c
+   57  subl head.h
+   58  subl 1.c
+   59  ls
+   60  mv 1.c 1.cpp
+   61  subl 1.cpp 
+   62  mv add.c add.cpp
+   63  mv sub.c sub.cpp
+   64  subl head.h 
+   65  g++ sub.cpp 
+   66  g++ -c sub.cpp 
+   67  g++ -c add.cpp 
+   68  ls
+   69  ar rs head.a add.o sub.o 
+   70  g++ -I . -c 1.cpp 
+   71  ls
+   72  g++ -o output -L . 1.o -lhead
+   73  g++ -o output -I . 1.o -lhead
+   74  g++ -o output -L . 1.o head.a
+   75  ar rs libhead.a add.o sub.o 
+   76  cd Static/
+   77  cd ../Dynamic/
+   78  ls
+   79  g++ -Wall -fPIC -c add.cpp 
+   80  g++ -Wall -fPIC -c sub.cpp 
+   81  g++ shared -o libhead.so add.o sub.o 
+   82  g++ -shared -o libhead.so add.o sub.o 
+   83  ldconfig
+   84  sudo ldconfig
+   85  g++ -c 1.cpp 
+   86  ls
+   87  g++ -c 1.cpp 
+   88  ls
+   89  g++ -c 1.cpp
+   90  cd ../
+   91  cd Dynamic/
+   92  g++ -c 1.cpp 
+   93  sudo idfconfig
+   94  sudo ldfconfig
+   95  sudo ldconfig
+   96  g++ -c 1.cpp 
+   97  g++ -c 1.cpp -lhead
+   98  g++ -o output 1.o libhead.so
+   99  ./output 
+  100  history
+  101  g++ -o output 1.o libhead.so
+  102  sudo lfconfig
+  103  sudo lconfig
+  104  sudo ldfconfig
+  105  sudo ldconfig
+  106* g++ -o output 1.o libhead
+  107  g++ -o output 1.o -libhead.so
+  108  g++ -o output 1.o -libhead
+  109  g++ -o output 1.o -lhead
+  110  ./a.out
+  111  ./output 
+  112  cd ..
+  113  subl 1.py
+  114  python 1.py 
+  115* 
+  116  python 1.py 
+  117  subl input.txt
+  118  python 1.py input.txt 
+  119  subl input.txt 
+  120  python 1.py input.txt 
+  121  python 1.py
+  122  python 1.py input.txt 
+  123  python 1.py 
+  124  history
+  125  history > history.txt
