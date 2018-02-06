@@ -1,0 +1,15 @@
+I = imread('cameraman.tif');
+A1 = int8(I);
+figure, imshow(A1);
+A2 = im2int16(I);
+figure, imshow(A2);
+A3 = im2uint8(I);
+figure, imshow(A3);
+A4 = im2uint16(I);
+figure, imshow(A4);
+A5 = im2single(I);
+figure, imshow(A5);
+A6 = im2double(I);
+figure, imshow(A6);
+A7 = char(I);
+%figure, imshow(A7);
