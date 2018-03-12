@@ -1,0 +1,16 @@
+The lab. exercise for Section A has been given below. You need to complete it in the lab. on Monday, 19.02.2018. Meanwhile the viva-voce will also be conducted as informed earlier.
+
+Note: Install yacc/bison package for parsing.
+Consider following grammar:
+E->E+T|T
+T->T*F|F
+F->(E)|id
+
+1. Implement LL(1)  parser [Top-down approach] for testing the strings:
+a. id+id+id
+b. id*id+(id)
+c. id(+id)*id
+
+2. Implement LR(0) parser [Bottom-up approach] for testing the strings:
+a. (id*id)+(id)
+b. id*(id+(id*id)+id)*id

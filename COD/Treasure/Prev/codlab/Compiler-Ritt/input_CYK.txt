@@ -1,0 +1,33 @@
+S
+3
+S->AB
+A->BB|a
+B->AB|b
+abbab
+
+
+
+  S
+6
+S->SS
+S->AC
+S->AB
+C->SB
+A->(
+B->)
+
+
+
+Enter the start Variable S
+
+Number of productions 4
+
+S->AB|BC
+A->BA|a
+B->CC|b
+C->AB|a
+
+Enter string to be checked :baaba
+Output ::
+
+*/

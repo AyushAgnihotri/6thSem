@@ -1,0 +1,31 @@
+The lab. exercise for Section A has been given below. You need to complete it in the lab. on Monday, 29.01.2018.
+
+1a. Implement following grammar for variable declaration (e represents null symbol):
+vardec->type id opid;
+type->char|int|float|double
+opid->, id opid|e
+
+Test following declarations:
+char id, id;
+int id, id, int;
+float id
+
+1b. Implement extended grammar of 1a for variable declaration:
+vardec->type id opast opid;
+type->char|inttype|realtype
+inttype->unsigned intver|intver
+intver->short int|long int|intf
+realtype->float|double|long double
+opast->=val|=id opast|e
+opid->, id opast opid|e
+
+Test following declarations:
+int id=val;
+char id,id=id;
+unsigned long int id=id=id;
+long double;
+
+2a. Write down the algorithm to eliminate left recursion from given grammar.
+2b. Write down the algorithm to implement left factoring in given grammar.
+
+3. Implement the algorithm to estimate FIRST() of all the symbols and strings in given grammar.

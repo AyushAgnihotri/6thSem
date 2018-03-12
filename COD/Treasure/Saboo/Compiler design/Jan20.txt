@@ -1,0 +1,17 @@
+1. Using Lex/Flex package recognize the identifiers of C language. Following grammar may be used:
+id->letter_(letter_|digit)
+letter_->a|b|...|z|A|B|...|Z|_
+digit->0|1|...|9
+
+2. Consider following rules for an unsigned number (e represents null symbol):
+num->digits fract exp
+digits->digit digit*
+digit->0|1|...|9
+fract->digits|e
+exp->(E(+|-|e)digits)|e
+Implement the definition in lex/flex to recognize unsigned numbers.
+
+3. Implement if-else statement in lex/flex using following grammar:
+stmt->if expr then stmt | if expr then stmt else stmt | other
+
+4. Implement any loop statement using appropriate definition/grammar in lex/flex.

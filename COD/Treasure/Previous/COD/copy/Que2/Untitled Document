@@ -1,0 +1,5 @@
+gcc -c try.c
+gedit test.o
+gcc -S try.c
+gedit try.s
+objdump -d try.o

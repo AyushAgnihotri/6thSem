@@ -1,0 +1,4 @@
+main file (tokenizer): assignment1.cpp
+file to remove comments: remove_comments.cpp
+main input file: hello_world.cpp
+input file (without comments): input_comments_removed.cpp

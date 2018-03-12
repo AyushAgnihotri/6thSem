@@ -1,0 +1,6 @@
+gcc -c hello_world.c
+subl hello_world.o
+objdump -d hello_world.o
+
+gcc -S hello_world.c
+subl hello_world.s

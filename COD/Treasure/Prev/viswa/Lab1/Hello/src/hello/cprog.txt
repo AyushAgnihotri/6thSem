@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main ()
+{
+// asdaad
+/*
+adlsda
+dakda
+*/
+int a = 3 + 5 ;
+printf ( "Hello World\n" );
+
+return 0 ;
+}

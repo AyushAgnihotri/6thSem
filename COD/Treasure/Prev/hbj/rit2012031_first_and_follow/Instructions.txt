@@ -1,0 +1,4 @@
+In the file named input.txt-
+First input the number of production rules.
+Then input the production rules one on each line.
+Compile and run the code.
